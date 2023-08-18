@@ -132,12 +132,12 @@ section {
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
+	font: normal 66px 'Open Sans', cursive;
 	margin: 0;
 }
 
 .footer-distributed h3 span{
-	color:  lightseagreen;
+	color:  rgb(0, 78, 74);
 }
 
 /* Footer links */
