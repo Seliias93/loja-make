@@ -94,6 +94,52 @@ nav a {
   font-family: Open Sans;
 }
 
+
+
+.container-house {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+	min-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+	flex-direction: row-reverse;
+	padding: 10px 10px;
+}
+
+/* Estilos para o Conteúdo */
+.content-house {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Estilos para a Imagem */
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 60%;
+}
+
+.img-house{
+	border-radius: 24%;
+    box-shadow: -7px 6px 13px #0000004a;
+}
+
 section {
   width: 100%;
   display: inline-block;
@@ -170,7 +216,7 @@ section {
 }
 
 .footer-distributed .footer-center i{
-	background-color:  #33383b;
+	background-color:  #666;
 	color: #ffffff;
 	font-size: 25px;
 	width: 38px;
@@ -203,7 +249,7 @@ section {
 }
 
 .footer-distributed .footer-center p a{
-	color:  lightseagreen;
+	color:  rgb(9, 212, 248);
 	text-decoration: none;;
 }
 
@@ -230,7 +276,7 @@ section {
 .footer-distributed .footer-company-about{
 	line-height: 20px;
 	color:  #92999f;
-	font-size: 13px;
+	font-size: 20px;
 	font-weight: normal;
 	margin: 0;
 }
@@ -238,7 +284,7 @@ section {
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
-	font-size: 14px;
+	font-size: 25px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
@@ -262,6 +308,11 @@ section {
 
 	margin-right: 3px;
 	margin-bottom: 5px;
+}
+
+.localization{
+	display: flex;
+	align-items: center;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
