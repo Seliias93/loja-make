@@ -32,6 +32,7 @@ header {
 
     text-transform: uppercase;
     font-size: 3em;
+    color: #ff004c;
 }
 
 .intro h1::after{
