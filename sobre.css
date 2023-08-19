@@ -71,3 +71,32 @@ nav a {
     text-decoration: none;
     padding: 8px 10px;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bibliography {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+  }
+
+  h2 {
+    color: #333;
+  }
