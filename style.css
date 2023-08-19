@@ -140,7 +140,7 @@ p {
     box-shadow: -7px 6px 13px #0000004a;
 }
 
-section {
+.section {
   width: 100%;
   display: inline-block;
   background: #333;

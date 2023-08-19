@@ -78,7 +78,6 @@ nav a {
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
   }
 
@@ -100,4 +99,34 @@ nav a {
 
   h2 {
     color: #333;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+  }
+  .image {
+    flex: 1;
+    background-image: url("img/tratamento-de-manchas-e-melasma-no-rosto-clinica-evo.webp");
+    background-size: cover;
+    background-position: inherit;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: red;
+    flex-wrap: nowrap;
+    margin-left: 58px;
+    align-items: flex-start;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 30ch;
   }
