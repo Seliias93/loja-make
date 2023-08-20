@@ -72,6 +72,14 @@ nav a {
     padding: 8px 10px;
 }
 
+.menu-nav:hover {
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    cursor: pointer;
+    color: #f9004d;
+  }
+
+
 
 .gallery {
     display: grid;
@@ -183,7 +191,7 @@ p {
 }
 
 .footer-distributed h3 span{
-	color:  rgb(204, 0, 255);
+	color: #ff004c;
 }
 
 /* Footer links */

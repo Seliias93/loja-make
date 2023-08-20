@@ -53,7 +53,7 @@ header {
 img {
     display: block;
     max-width: 100%;
-	background-color: #666;
+	  background-color: #666;
   }
   
 header img {
@@ -71,6 +71,14 @@ nav a {
     text-decoration: none;
     padding: 8px 10px;
 }
+.menu-nav:hover {
+  background-color: transparent;
+  border: 1px solid #f9004d;
+  cursor: pointer;
+  color: #f9004d;
+}
+
+
 
 form p {
     color: #0a0000;
@@ -94,6 +102,11 @@ form p {
     align-content: space-around;
     align-items: center;
   }
+  
+.img-p{
+  background: black;
+  margin-bottom: 10px;
+}
   
   .contact-details {
     flex: 1;
@@ -209,7 +222,7 @@ form p {
 }
 
 .footer-distributed h3 span{
-	color:  rgb(204, 0, 255);
+	color: #ff004c88;
 }
 
 /* Footer links */
