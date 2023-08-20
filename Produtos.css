@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-.cabeca {
+header {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
@@ -12,7 +12,6 @@ body {
     background-color: #333;
     font-size: 28px;
     padding: 10px 110px;
-    
 }
 
 .container{
@@ -80,11 +79,6 @@ nav a {
     color: #f9004d;
   }
 
-header {
-    background-color: #f2f2f2;
-    text-align: center;
-    padding: 20px 0;
-}
 
 main {
     display: flex;
@@ -92,6 +86,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
+    flex-direction: column;
 }
 
 .product {
