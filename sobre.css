@@ -34,6 +34,14 @@ display: block;
   font-size: 3em;
 }
 
+.menu-nav:hover {
+  background-color: transparent;
+  border: 1px solid #f9004d;
+  cursor: pointer;
+  color: #f9004d;
+}
+
+
 .intro h1::after{
   content: '';
   display: block;
