@@ -118,6 +118,68 @@ main {
 }
 
 
+.image-container {
+	position: relative;
+	overflow: hidden;
+  }
+  
+  .image-container img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
+  
+  .overlay:hover {
+	opacity: 1;
+  }
+
+  .overlay h1{
+	color: rgb(255, 255, 255);
+  }
+  
+  .overlay p {
+	color: white;
+    width: 30ch;
+    font-size: 20px;
+    margin-bottom: 110px;
+  }
+
+  .overlay button {
+	background-color: #f9004d;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 20px 40px;
+	border-radius: 30px;
+	transition: 0.4s;
+	cursor: pointer;  
+  }
+
+  .overlay button:hover {
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+  }
+
+
+
 
 .footer-distributed{
 	background: #666;
@@ -307,46 +369,3 @@ main {
 }
 
 
-.image-container {
-	position: relative;
-	overflow: hidden;
-  }
-  
-  .image-container img {
-	max-width: 100%;
-	height: auto;
-	display: block;
-  }
-  
-  .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	opacity: 0;
-	transition: opacity 0.3s;
-  }
-  
-  .overlay:hover {
-	opacity: 1;
-  }
-  
-  .overlay p {
-	color: white;
-	font-size: 20px;
-	margin-bottom: 10px;
-  }
-  
-  .overlay button {
-	background-color: #3498db;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	cursor: pointer;
-  }
