@@ -33,7 +33,6 @@ header {
     .cabeca{
        padding: 5px 2px 5px 2px;
        font-size: 18px;
-       background-color: #007BFF;
     }
     .add-to-cart-btn{
         margin-left: 65px;
@@ -42,7 +41,6 @@ header {
         margin-left: 2px;
     }
     .intro h1::after{
-        width: 304px;
         background: white;
         margin: 30px 20px;
     }
@@ -56,7 +54,7 @@ header {
 .intro h1::after{
     content: '';
     display: block;
-    width: 420px;
+    width: 307px;
     height: 2px;
     background: #ff004c;
     margin: 10px auto;
