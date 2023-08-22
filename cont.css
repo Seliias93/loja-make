@@ -78,12 +78,6 @@ nav a {
   color: #f9004d;
 }
 
-.menu-nav:hover {
-  background-color: transparent;
-  border: 1px solid #f9004d;
-  cursor: pointer;
-  color: #f9004d;
-}
 
 
 form p {
