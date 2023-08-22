@@ -122,6 +122,14 @@ nav a {
     
 }
 
+@media (max-width:768px){
+    .product-details{
+        margin: 0px ;
+        padding: 0px 74px;
+        
+    }
+}
+
 .price {
     font-size: 22px;
     font-weight: bold;
