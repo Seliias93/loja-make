@@ -124,6 +124,17 @@ nav a {
   justify-content: space-around;
   padding-top: 90px
 }
+
+@media (max-width:768px){
+  .main{
+    width: 198px;
+    flex-direction: column;
+  }
+  .about-text{
+    max-width: 40ch;
+  }
+}
+
 .about-text h2 {
   color: white;
   font-size: 75px;
@@ -145,6 +156,13 @@ nav a {
   margin-bottom: 45px;
 }
 
+@media (max-width:768px){
+  .about-text h2{
+    font-size: 60px;
+    margin-bottom: -13px;
+    
+  }
+}
 
 .container {
   display: flex;
@@ -201,12 +219,10 @@ button:hover {
   }
   .left-content h1{
     padding: 5px 0 0 0;
-    background-color: rgb(212, 11, 11);
     margin: 0pc;
   }
   .left-content p {
     padding: 5px;
-    background-color: rgb(0, 248, 83);
     margin-bottom: none;
   }
 }
@@ -409,6 +425,15 @@ button:hover {
 	align-items: center;
 }
 
+@media (max-width:768px){
+  .des-c{
+    flex-direction: column;
+  }
+  .des-p{
+    max-width: 40ch;
+    padding: 50px;
+  }
+}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
