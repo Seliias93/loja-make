@@ -33,6 +33,7 @@ header {
     .cabeca{
        padding: 5px 2px 5px 2px;
        font-size: 23px;
+       background-color: red;
     }
     .add-to-cart-btn{
         margin-left: 65px;
