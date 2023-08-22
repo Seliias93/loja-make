@@ -41,6 +41,10 @@ header {
     #btn-ps{
         margin-left: 2px;
     }
+    .intro h1::after{
+        width: 304px;
+        background: white;
+    }
 }
 .intro h1 {
 
