@@ -30,7 +30,7 @@ header {
 }
 
 @media (max-width: 768px) {
-    .cabeca{
+    .header{
        padding: 5px 2px 5px 2px;
        font-size: 18px;
       

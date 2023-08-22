@@ -37,7 +37,7 @@ header {
 .intro h1::after{
     content: '';
     display: block;
-    width: 420px;
+    width: 307px;
     height: 2px;
     background: #ff004c;
     margin: 10px auto;
@@ -47,6 +47,22 @@ header {
     font-style: arial;
     font-size: 1.145em;
     font: bold;
+}
+@media (max-width: 768px) {
+    .cabeca{
+       padding: 5px 2px 5px 2px;
+       font-size: 18px;
+      
+    }
+    .add-to-cart-btn{
+      margin-left: 9px;
+    }
+    #btn-ps{
+        margin-left: 2px;
+    }
+    .intro h1::after{
+        margin: 30px 20px;
+    }
 }
 
 
