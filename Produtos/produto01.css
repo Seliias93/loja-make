@@ -33,10 +33,10 @@ header {
     .cabeca{
        padding: 5px 2px 5px 2px;
        font-size: 18px;
-       background: red;
+      
     }
     .add-to-cart-btn{
-        margin-left: 65px;
+        margin-left: 40px;
     }
     #btn-ps{
         margin-left: 2px;
@@ -90,13 +90,6 @@ nav a {
     text-decoration: none;
     padding: 8px 10px;
 }
-.menu-nav:hover {
-  background-color: transparent;
-  border: 1px solid #f9004d;
-  cursor: pointer;
-  color: #f9004d;
-}
-
 .menu-nav:hover {
   background-color: transparent;
   border: 1px solid #f9004d;
