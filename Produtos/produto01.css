@@ -128,9 +128,8 @@ nav a {
 
 @media (max-width:768px){
     .product-details{
-        margin: 0px ;
-        padding: 0px 74px;
-        
+        padding: 20px;
+        max-width: 60ch;
     }
 }
 
