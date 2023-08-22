@@ -37,7 +37,7 @@ header {
 .intro h1::after{
     content: '';
     display: block;
-    width: 420px;
+    width: 307px;
     height: 2px;
     background: #ff004c;
     margin: 10px auto;
@@ -78,6 +78,23 @@ nav a {
   color: #f9004d;
 }
 
+@media (max-width: 768px) {
+  .cabeca{
+     padding: 5px 2px 5px 2px;
+     font-size: 18px;
+    
+  }
+  .add-to-cart-btn{
+    margin-left: 9px;
+  }
+  #btn-ps{
+      margin-left: 2px;
+  }
+  .intro h1::after{
+      margin: 30px 20px;
+  }
+}
+
 
 
 form p {
@@ -103,6 +120,9 @@ form p {
     align-items: center;
   }
   
+  @media (max-width:768px){
+    .contact-container{flex-direction: column;}
+  }
 .img-p{
   background: black;
   margin-bottom: 10px;

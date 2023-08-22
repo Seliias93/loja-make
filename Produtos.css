@@ -37,7 +37,7 @@ header {
 .intro h1::after{
     content: '';
     display: block;
-    width: 420px;
+    width: 307px;
     height: 2px;
     background: #ff004c;
     margin: 10px auto;
@@ -80,6 +80,22 @@ nav a {
     color: #f9004d;
   }
 
+  @media (max-width: 768px) {
+    .cabeca{
+       padding: 5px 2px 5px 2px;
+       font-size: 18px;
+      
+    }
+    .add-to-cart-btn{
+      margin-left: 9px;
+    }
+    #btn-ps{
+        margin-left: 2px;
+    }
+    .intro h1::after{
+        margin: 30px 20px;
+    }
+}
 
 main {
     display: flex;
@@ -118,6 +134,12 @@ main {
 }
 
 
+@media (max-width:768px){
+	.container{
+		grid-template-columns: repeat(1,1fr);
+	}
+}
+
 .image-container {
 	position: relative;
 	overflow: hidden;
@@ -154,9 +176,15 @@ main {
   
   .overlay p {
 	color: white;
-    width: 30ch;
+    max-width: 30ch;
     font-size: 20px;
     margin-bottom: 110px;
+  }
+
+  @media (max-width:768px){
+	.overlay p {
+		max-width: 20ch;
+	}
   }
 
   .overlay button {
