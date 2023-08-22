@@ -43,6 +43,7 @@ header {
     .intro h1::after{
         width: 304px;
         background: white;
+        margin: 30px 20px;
     }
 }
 .intro h1 {
