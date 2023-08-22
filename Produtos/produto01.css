@@ -55,7 +55,7 @@ header {
 img {
     display: block;
     max-width: 100%;
-	  background-color: #666;
+	background-color: #666;
   }
   
 header img {
@@ -215,7 +215,29 @@ h2 {
 }
 
 
+.coluna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
+.coluna p {
+    max-width: 86ch;
+}
+
+  .button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .content {
+    display: none;
+  }
 
 
 .footer-distributed{
