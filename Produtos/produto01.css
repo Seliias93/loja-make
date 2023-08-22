@@ -282,7 +282,7 @@ h2 {
 
   @media (max-width: 768px) {
     .coluna p {
-        max-width: 46ch;
+        max-width: 32ch;
     }
   }
 
