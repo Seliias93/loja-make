@@ -143,6 +143,7 @@ p{
     transition: 0.4s;
     margin-top: 20px;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 .add-to-cart-btn:hover {
     background-color: transparent;
@@ -161,10 +162,10 @@ p{
     margin: 0px;
 }
 .product-description h3{
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 .product-description p{
-   margin: 10px 0px 10px 0px;
+   margin: 20px 0px 20px 0px;
 }
 h2 {
     margin-top: 0;
