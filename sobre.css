@@ -183,6 +183,13 @@ nav a {
   background-color: white;
 }
 
+@media (max-width:768px)
+{
+  .right-content{
+    padding: 0px;
+    margin: 0 5px;
+  }
+}
 button {
   background-color: #f9004d;
   color: #fff;
