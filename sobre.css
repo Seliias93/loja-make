@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .cabeca {
@@ -9,7 +10,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
   justify-content: space-between;
-  background-color: #ff0000;
+  background-color: #333;
   font-size: 28px;
   padding: 10px 110px;
 }
