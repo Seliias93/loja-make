@@ -139,18 +139,11 @@ nav a {
 }
 
 @media (max-width:768px){
-	.content-house{
-		margin: 0px;
-		background-color: red;
+	.container-house{
+		display: none;
 	}
-	.img-house{
-		height: 300px;
-		}
-		.content-house p {
-		max-width: 10ch;
-		margin: 0px 0px 0px 0px;
-		}
 }
+
 
 /* Estilos para o Conteúdo */
 .content-house {
