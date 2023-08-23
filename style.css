@@ -9,7 +9,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: space-between;
-    background-color: red;
+    background-color: #333;
     font-size: 28px;
     padding: 10px 110px;
 }
@@ -139,12 +139,16 @@ nav a {
 }
 
 @media (max-width:768px){
-
+	.content-house{
+		margin: 0px;
+		background-color: red;
+	}
 	.img-house{
 		height: 300px;
 		}
 		.content-house p {
 		max-width: 10ch;
+		margin: 0px 0px 0px 0px;
 		}
 }
 
