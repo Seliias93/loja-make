@@ -154,6 +154,12 @@ nav a {
     padding: 20px;
 }
 
+@media (768px){
+	.content-house {
+		padding: 0px;
+	}
+}
+
 h1 {
     font-size: 24px;
     margin-top: 0;
