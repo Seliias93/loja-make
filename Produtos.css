@@ -417,3 +417,11 @@ main {
 #pesquisar-ps::placeholder {
     color: #aaa;
 }
+
+
+@media (max-width:768px){
+	#pesquisar-ps {
+		width: 300px;
+	}
+
+}
