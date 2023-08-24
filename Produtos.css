@@ -9,7 +9,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: space-between;
-    background-color: green;
+    background-color: #333;
     font-size: 28px;
     padding: 10px 110px;
 }
@@ -106,6 +106,13 @@ main {
     flex-direction: column;
 }
 
+@media (max-width:768px){
+	main{
+		padding: 0px;
+		margin: 0px;
+	}
+
+}
 .product {
     border: 1px solid #ccc;
     padding: 20px;
@@ -422,6 +429,9 @@ main {
 @media (max-width:768px){
 	#pesquisar-ps {
 		width: 300px;
+	}
+	.Pesquisar {
+		margin: 0px 0;
 	}
 
 }
