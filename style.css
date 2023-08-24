@@ -150,7 +150,7 @@ nav a {
     padding: 20px;
 }
 
-@media (768px){
+@media (max-width:768px){
 	.content-house {
 		padding: 0px;
 	}
